@@ -46,7 +46,7 @@ REMOVE_EXTENSIONS = 1
 CODESIGN_IPA = 0
 
 YTLITE_PATH = Tweaks/YTLite
-YTLITE_VERSION = "5.2b4"
+YTLITE_VERSION = 5.2b4
 ifeq ($(YTLITE_VERSION),)
 $(error Failed to fetch latest YTLite version from GitHub API)
 endif
